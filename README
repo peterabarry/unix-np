@@ -18,8 +18,8 @@ Execute the following from the src/ directory:
     make           # only if your system supports XTI
 
     cd ../intro    # build and test a basic client program
-    make daytimetcpcli
-    ./daytimetcpcli 127.0.0.1
+    make daytimetcpcli 
+    ./daytimetcpcli 127.0.0.1 ;for me only worked after starting server...file.
 
 If all that works, you're all set to start compiling individual programs.
 
